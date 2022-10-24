@@ -1,0 +1,22 @@
+{
+  "name": "tou-python-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "gunicorn app:app",
+    "build": "pip install -r requirements.txt",
+    "push": "git push -u origin main",
+    "push-f": "git push -u origin main --force"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArbenApura/tou-python-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArbenApura/tou-python-server/issues"
+  },
+  "homepage": "https://github.com/ArbenApura/tou-python-server#readme"
+}
