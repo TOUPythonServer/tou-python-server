@@ -5,6 +5,7 @@
   "main": "",
   "scripts": {
     "start": "gunicorn app:app",
+    "dev": "flask --app app.py --debug run",
     "build": "pip install -r requirements.txt",
     "push": "git push -u origin main",
     "push-f": "git push -u origin main --force"
